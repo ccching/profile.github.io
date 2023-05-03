@@ -208,7 +208,11 @@ mark {
   }
   
   @media (min-width: 1111px) {
-	#project {
-	  left: calc(-520px + 40vw);
-	}
-  }
+    mark{
+      font-size: 30px;
+    } 
+    #project,#content {
+      left: calc(-520px + 40vw);
+    }}
+
+ 
