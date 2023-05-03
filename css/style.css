@@ -243,3 +243,17 @@ button:hover span:after {
 	  left: calc(-520px + 40vw);
 	}
   }
+  @media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+    #content,#project {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    #content,#project  {
+        margin-top: 0%;
+        display: none;
+    }
+}
