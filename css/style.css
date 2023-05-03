@@ -232,14 +232,14 @@ button:hover span:after {
 	nav .active a:hover div.line {
 	  width: 250px;
 	}
-	#project {
+	#project,#content {
 	  flex-flow: row nowrap;
 	}
   
   }
   
   @media (min-width: 1111px) {
-	#project {
+	#project,#content {
 	  left: calc(-520px + 40vw);
 	}
   }
