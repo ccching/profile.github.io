@@ -199,3 +199,47 @@ button:hover span:after {
     opacity: 1;
     right: 0;
 }
+@media (min-width: 900px) {
+	#about::after {
+	content: "Me";
+	}
+
+	nav h1 span {
+	display: block;
+	}
+
+	nav div.line {
+	  width: 0px;
+	  height: 2px;
+	  background-color: var(--white);
+	  border-radius: 1px;
+	  -webkit-transition: width 0.5s ease-in-out;
+	  -moz-transition: width 0.5s ease-in-out;
+	  -o-transition: width 0.5s ease-in-out;
+	  transition: width 0.5s ease-in-out;
+	}
+  
+	nav li.active {
+	  margin-right: auto;
+	}
+	nav a:hover div.line,
+	nav .active div.line {
+	  width: 152px;
+	}
+	nav a:hover div.line {
+	  background-color: var(--highlight);
+	}
+	nav .active a:hover div.line {
+	  width: 250px;
+	}
+	#project {
+	  flex-flow: row nowrap;
+	}
+  
+  }
+  
+  @media (min-width: 1111px) {
+	#project {
+	  left: calc(-520px + 40vw);
+	}
+  }
