@@ -180,7 +180,7 @@ mark {
 	nav div.line {
 	  width: 0px;
 	  height: 2px;
-	  background-color: var(--white);
+	  background-color: var(--primary);
 	  border-radius: 1px;
 	  -webkit-transition: width 0.5s ease-in-out;
 	  -moz-transition: width 0.5s ease-in-out;
@@ -196,7 +196,7 @@ mark {
 	  width: 152px;
 	}
 	nav a:hover div.line {
-	  background-color: var(--highlight);
+	  background-color: var(--secondary);
 	}
 	nav .active a:hover div.line {
 	  width: 250px;
