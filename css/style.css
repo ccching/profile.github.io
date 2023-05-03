@@ -239,11 +239,11 @@ button:hover span:after {
   }
   
   @media (min-width: 1111px) {
-	h1 {
-        font-size: 30px;
-    }
-	#project,#content {
-	  left: calc(-520px + 40vw);
-	}
-  }
+    mark{
+      font-size: 30px;
+    } 
+    #project,#content {
+      left: calc(-520px + 40vw);
+    }}
 
+ 
